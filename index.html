@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cybersecurity Portfolio</title>
+<meta name="description" content="Cybersecurity portfolio: projects, certifications, and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="#top" id="brand"></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#credentials">Credentials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</div></header>
+
+<main id="top">
+  <section class="hero"><div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="eyebrow" id="location"></p>
+      <h1 id="name"></h1>
+      <p class="title" id="title"></p>
+      <p class="tagline" id="tagline"></p>
+      <div class="btns">
+        <a class="btn" id="btn-email">Email me</a>
+        <a class="btn ghost" id="btn-github">GitHub</a>
+      </div>
+    </div>
+    <img class="photo" id="photo" alt="" onerror="this.style.display='none'">
+  </div></section>
+
+  <section id="about" class="light"><div class="wrap sec">
+    <p class="eyebrow dark">About</p>
+    <h2 id="about-h"></h2>
+    <div id="about-p" class="prose"></div>
+  </div></section>
+
+  <section id="projects" class="dark"><div class="wrap sec">
+    <p class="eyebrow">Projects</p>
+    <h2>Proof of skill</h2>
+    <div class="cards" id="projects-list"></div>
+  </div></section>
+
+  <section id="experience" class="light"><div class="wrap sec">
+    <p class="eyebrow dark">Experience</p>
+    <h2>Where I have worked</h2>
+    <div class="jobs" id="jobs"></div>
+  </div></section>
+
+  <section id="credentials" class="dark"><div class="wrap sec">
+    <p class="eyebrow">Credentials</p>
+    <h2>Certifications, education, skills</h2>
+    <div class="cols">
+      <div><h3>Certifications</h3><ul id="certs"></ul></div>
+      <div><h3>Education</h3><ul id="edu"></ul></div>
+      <div><h3>Skills</h3><div id="skills"></div></div>
+    </div>
+  </div></section>
+
+  <section id="contact" class="soft"><div class="wrap sec center">
+    <h2>Let's connect</h2>
+    <p class="prose">Please reach out to me.</p>
+    <div class="btns center-btns">
+      <a class="btn solid" id="c-linkedin">Connect on LinkedIn</a>
+    </div>
+  </div></section>
+</main>
+
+<script src="profile.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
